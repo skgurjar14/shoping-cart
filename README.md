@@ -1,16 +1,59 @@
-# React + Vite
+# 🛒 Shopping Cart (React + Vite)
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+## 📦 Project Setup Instructions
 
-Currently, two official plugins are available:
+Follow these steps to run this project on your system:
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react) uses [Babel](https://babeljs.io/) (or [oxc](https://oxc.rs) when used in [rolldown-vite](https://vite.dev/guide/rolldown)) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
+1. **Clone this repository**
+   ```bash
+   git clone https://github.com/skgurjar14/shoping-cart.git
+Go inside the project folder
 
-## React Compiler
+bash
+Copy code
+cd shoping-cart
+Install dependencies
 
-The React Compiler is not enabled on this template because of its impact on dev & build performances. To add it, see [this documentation](https://react.dev/learn/react-compiler/installation).
+bash
+Copy code
+npm install
+Start the development server
 
-## Expanding the ESLint configuration
+bash
+Copy code
+npm run dev
+Open the given local URL (like http://localhost:5173/) in your browser 🚀
 
-If you are developing a production application, we recommend using TypeScript with type-aware lint rules enabled. Check out the [TS template](https://github.com/vitejs/vite/tree/main/packages/create-vite/template-react-ts) for information on how to integrate TypeScript and [`typescript-eslint`](https://typescript-eslint.io) in your project.
+💡 Project Explanation
+This is a React + Vite based Shopping Cart project.
+It allows users to:
+
+View available products
+
+Add or remove items from the cart
+
+Update quantity dynamically
+
+View total price instantly
+
+🧩 Technologies Used
+React.js – for UI and components
+
+Vite – for fast development build
+
+React Router DOM – for navigation between pages
+
+CSS – for styling and responsive design
+
+⚙️ Project Flow
+All product details are displayed on the Home page.
+
+When the user clicks “Add to Cart,” items are stored in React state (or Context API).
+
+Cart page shows all added items with total cost calculation.
+
+Dynamic updates using useState and useEffect hooks.
+
+👨‍💻 Developed By
+Sheshkaran Gurjar
+GitHub: @skgurjar14
